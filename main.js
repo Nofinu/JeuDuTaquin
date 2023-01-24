@@ -5,7 +5,7 @@ const btnSend = document.getElementById('send');
 const inputs = [...document.querySelectorAll('input')];
 const container = document.getElementById('grid-container');
 let r = document.querySelector(':root');
-
+console.log(tabverif)
 
 function rndm (vMin,VMax){
     return Math.floor(Math.random() * (VMax+1 - vMin) + vMin);
