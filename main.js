@@ -170,7 +170,7 @@ document.addEventListener('click',(e)=>{
                 break;
         }
     }
-    else{
+    else if (keyPush<=15){
         switch(keyPush){
             case 12:
                 cornerBottomLeft (Number(keyPush));
