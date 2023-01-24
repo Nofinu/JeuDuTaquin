@@ -1,0 +1,29 @@
+#grid-container{
+    margin: auto;
+    margin-top: 10vh;
+    height: 780px;
+    width:700px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px;
+    background-color: rgba(14, 14, 14, 0.767);
+    padding: 5px;
+}
+
+button{
+    height: 170px;
+    width: 170px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+#melanger{
+    background-color: rgb(97, 2, 2);
+    color: white;
+    margin: auto;
+    width: 170px;
+    height: 80px;
+    font-size: 35px;
+    grid-column: 1/5;
+}
