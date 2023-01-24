@@ -1,4 +1,4 @@
-let tab = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"],tabverif=tab;
+let tab = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"],tabverif=["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"];
 const buttons =[...document.querySelectorAll('.btnGame')];
 const btnMelanger = document.getElementById('melanger');
 const btnSend = document.getElementById('send');
@@ -149,7 +149,7 @@ container.addEventListener('click',(e)=>{
                 break;
         }
     }
-    else if(keyPush<=12){
+    else if(keyPush<=11){
         switch(keyPush){
             case 4:
                 leftMid(Number(keyPush));
